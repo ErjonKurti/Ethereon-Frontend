@@ -1,0 +1,11 @@
+[33mcommit 06b6b41052cdaffb0dcad2d5a2aa224ba67af876[m[33m ([m[1;36mHEAD -> [m[1;32mphoenix[m[33m, [m[1;31morigin/phoenix[m[33m)[m
+Author: erjonkurti <erjonkurti64@gmail.com>
+Date:   Tue Aug 27 22:19:02 2024 +0200
+
+    Version 1.0
+
+[33mcommit c739fc7011bb5f3c0781e410a698b90aa82da318[m[33m ([m[1;32mmaster[m[33m)[m
+Author: xhiti <erjonkurti64@gmail.com>
+Date:   Thu Jul 18 14:34:36 2024 +0200
+
+    Initialize project using Create React App

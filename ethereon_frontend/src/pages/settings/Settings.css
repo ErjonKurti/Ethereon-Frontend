@@ -1,0 +1,115 @@
+
+.settings-container {
+    background-color: #fff;
+    color: #000;
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    margin-top: 65px;
+    padding-left: 10px;
+}
+
+.settings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    margin-left: -10px;
+}
+
+.settings-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.settings-close {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.settings-sections {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.settings-section {
+    margin: 20px;
+}
+
+.settings-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.settings-button {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+}
+
+.settings-button:hover {
+    background-color: #f8f9fa;
+}
+
+.settings-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.settings-toggle span {
+    font-size: 16px;
+}
+
+.settings-toggle input {
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+.dark-mode .settings-header {
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #333;
+}
+
+.dark-mode .settings-button {
+    color: #4a90e2;
+}
+
+.dark-mode .settings-button:hover {
+    background-color: #333;
+}
+
+@media (max-width: 768px) {
+    .settings-header h1 {
+        font-size: 20px;
+    }
+
+    .settings-button {
+        font-size: 14px;
+    }
+
+    .settings-toggle span {
+        font-size: 14px;
+    }
+}

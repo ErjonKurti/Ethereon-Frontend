@@ -1,0 +1,145 @@
+
+.video-background-container {
+    position: relative;
+}
+
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#NFS {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+    border: none;
+    z-index: 1;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.text-overlay h1 {
+    margin: 0;
+    font-family: outfit;
+    font-weight: 500;
+    font-size: 63px;
+    letter-spacing: 1px;
+}
+
+.text-overlay h2 {
+    margin: 0;
+    font-family: outfit;
+    font-size: larger;
+}
+
+.text-overlay p {
+    font-size: 14px;
+    margin: 0;
+    font-family: outfit;
+    margin-top: 5%;
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.519);
+}
+
+
+.FDM-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.FDM-button {
+    width: 17vw;
+    border-color: rgba(255, 255, 255, 0.537);
+    background: transparent;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 15px;
+    padding: 18px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all 0.5s ease 0s;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.FDM-button:hover {
+    border-color: transparent;
+    color: #404040;
+    font-weight: 700;
+    letter-spacing: 5px;
+    background: none;
+    -webkit-box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.5s ease 0s;
+}
+
+.windows-icon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url('../../../public/assets/img/windows-logo.png');
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.macos-icon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url('../../../public/assets/img/macos-logo.png');
+    background-size: cover;
+    margin-right: 10px;
+}
+
+
+@media (max-width: 750px) {
+
+    .video-background {
+        position: relative;
+        width: 100%;
+        height: 93vh;
+        overflow: hidden;
+    }
+    
+
+    .text-overlay h1 {
+        display: none;
+        
+    }
+
+    .text-overlay h2{
+        margin-bottom: 60px;
+    }
+
+
+    .text-overlay p {
+        display: none;
+    }
+
+
+    .FDM-button {
+        width: 300px;
+
+    }
+
+    .app-cont {
+        padding-top: 40px;
+    }
+}

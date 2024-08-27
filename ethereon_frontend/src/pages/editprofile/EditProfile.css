@@ -1,0 +1,174 @@
+
+.edit-profile-container {
+    max-width: 935px;
+    background-color: #fff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 70px auto 0 auto;
+    
+}
+
+.edit-profile-header {
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.edit-profile-header h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.edit-profile-cover {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.cover-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.cover-upload-button {
+    position: absolute;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.cover-upload-button input {
+    display: none;
+}
+
+.edit-profile-pic {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.edit-profile-pic img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    object-fit: cover;
+}
+
+.upload-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.upload-button input {
+    display: none;
+}
+
+.edit-profile-info {
+    width: 100%;
+    max-width: 500px;
+}
+
+.edit-profile-info label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.edit-profile-info span {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.edit-profile-info input,
+.edit-profile-info textarea {
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.edit-profile-info textarea {
+    height: 100px;
+    resize: none;
+}
+
+.edit-profile-notifications label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.edit-profile-notifications input {
+    margin-right: 10px;
+}
+
+.edit-profile-linked-accounts {
+    margin-bottom: 20px;
+}
+
+.edit-profile-linked-accounts h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.linked-account {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.linked-account svg {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.linked-account span {
+    font-size: 14px;
+}
+
+.linked-account svg.active {
+    color: #0095f6;
+}
+
+.save-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0095f6;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.save-button svg {
+    margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+    .edit-profile-container {
+        margin: 20px;
+    }
+
+    .cover-image {
+        height: 150px;
+    }
+
+    .edit-profile-pic img {
+        width: 100px;
+        height: 100px;
+    }
+}

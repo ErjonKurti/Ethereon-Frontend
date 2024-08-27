@@ -1,0 +1,118 @@
+.suggestions-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-close {
+    position: absolute; 
+    top: 15px;
+    right: 15px;
+    color: #b7b7b7;
+    font-size: 1.7rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.suggestions-container {
+    display: flex;
+    overflow-x: auto;
+    border-radius: 7px;
+    max-width: 800px;
+    position: relative;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+.suggestion-window {
+    flex: 0 0 auto; /* Prevent items from shrinking */
+    width: calc(100%);
+    max-width: 150px; /* Maximum width for each suggestion window */
+    position: relative;
+}
+
+.suggestion-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.suggestion-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.suggestion-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.suggestion-username {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.follow-button {
+    background-color: #063b5e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.follow-button.following {
+    background-color: #eee;
+    color: #333;
+}
+
+.settings-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.close-window {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    color: #ddd;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.suggestion-close {
+    position: absolute;
+    top: 0px;
+    right: 4px;
+    color: #888;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.suggestion-close:hover {
+    color: #333;
+}
