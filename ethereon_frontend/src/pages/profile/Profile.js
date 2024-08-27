@@ -66,6 +66,7 @@ const Profile = () => {
                     <div className="highlight">Highlight 1</div>
                     <div className="highlight">Highlight 2</div>
                     <div className="highlight">Highlight 3</div>
+                    <div className="highlight">Highlight 4</div>
                 </div>
                 <nav className="profile-tabs">
                     <button className="active">Posts</button>

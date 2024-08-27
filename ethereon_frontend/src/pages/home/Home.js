@@ -93,7 +93,7 @@ const Home = () => {
             <div className='home-container'>
                 <section className="home-stories">
                     <div className="story">
-                        <div className="story-profile my-profile"> {/* Apply my-profile class for green border */}
+                        <div className="story-profile my-profile">
                             <img src={stories[0].image} alt={stories[0].username} className="story-image" />
                             <button className="story-add">
                                 <FaPlusCircle />

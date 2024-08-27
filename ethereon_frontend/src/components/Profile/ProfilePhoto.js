@@ -13,7 +13,6 @@ const ProfilePhoto = () => {
     );
 };
 
-// Assuming you have a specific mount node
 const mountNode = document.getElementById('profile-photo-mount');
 
 ReactDOM.render(<ProfilePhoto />, mountNode);

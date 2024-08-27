@@ -5,9 +5,9 @@ import App from './App';
 import ErrorBoundary from './ErrorBoundary';
 import './index.css';
 
-import 'primeicons/primeicons.css'; // Icons
-import 'primereact/resources/primereact.min.css'; // Core CSS
-import 'primereact/resources/themes/saga-blue/theme.css'; // Theme CSS
+import 'primeicons/primeicons.css';
+import 'primereact/resources/primereact.min.css';
+import 'primereact/resources/themes/saga-blue/theme.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

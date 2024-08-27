@@ -23,6 +23,7 @@ class UserManager(BaseUserManager):
             raise ValueError('Super user must have is_superuser= True')
         return self.create_user(email, password, **extrafields)
 
+
 class User(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(max_length=255, unique=True)
     username = models.CharField(max_length=80)

@@ -16,7 +16,6 @@ const ForgotPassword = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle the password reset logic here
         console.log('Password reset link sent to:', email);
     };
 

@@ -100,7 +100,6 @@ const Post = () => {
                     <button className="post-option" onClick={() => console.log('Story')}>Story</button>
                     <button className="post-option" onClick={() => console.log('Post')}>Post</button>
                     <button className="post-option" onClick={() => console.log('Reel')}>Reel</button>
-                    <button className="post-option" onClick={() => console.log('Live')}>Live</button>
                 </div>
             </div>
         </div>

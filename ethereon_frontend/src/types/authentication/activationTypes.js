@@ -1,3 +1,4 @@
+
 export const activationTypes = {
     ACTIVATION_REQUEST: 'ACTIVATION_REQUEST',
     ACTIVATION_SUCCESS: 'ACTIVATION_SUCCESS',

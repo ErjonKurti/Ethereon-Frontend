@@ -33,7 +33,6 @@ const EditProfile = () => {
     };
 
     const handleSave = () => {
-        // Logic to save profile details goes here
         alert('Profile updated!');
     };
 

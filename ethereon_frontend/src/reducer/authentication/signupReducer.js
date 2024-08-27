@@ -25,6 +25,6 @@ export const signupReducer = (state = initialState, action) => {
                 isSignedup: false,
             };
         default:
-            return state; // Return state directly instead of an object with state
+            return state;
     }
 };

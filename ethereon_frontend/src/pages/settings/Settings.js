@@ -119,7 +119,6 @@ const Settings = () => {
                         <li><button className="settings-button">App Version</button></li>
                         <li><button className="settings-button">Terms of Service</button></li>
                         <li><button className="settings-button">Privacy Policy</button></li>
-                        <li><button className="settings-button">Open Source Libraries</button></li>
                     </ul>
                 </section>
             </div>

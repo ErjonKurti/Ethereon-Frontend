@@ -11,7 +11,6 @@ const conversations = [
     { id: 2, name: 'Jane Smith', message: 'Let\'s meet up!', time: '15m ago', avatar: 'https://via.placeholder.com/50', unread: false, status: 'offline' },
     { id: 3, name: 'Alice Johnson', message: 'Can you send the files?', time: '1h ago', avatar: 'https://via.placeholder.com/50', unread: true, status: 'online' },
     { id: 4, name: 'Bob Brown', message: 'Got your email.', time: '3h ago', avatar: 'https://via.placeholder.com/50', unread: false, status: 'offline' },
-    // Add more conversation objects here
 ];
 
 const Inbox = () => {

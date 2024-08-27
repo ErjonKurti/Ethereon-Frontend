@@ -86,7 +86,6 @@ const HelpPage = () => {
                         <p>If you need further assistance or have questions that are not covered in our help articles, here’s how you can reach out to us:</p>
                         <ul>
                             <li><strong>Email Support:</strong> Send us an email detailing your issue or question. Our support team will review your message and provide a response as soon as possible. Be sure to include relevant details to expedite the process.</li>
-                            <li><strong>Live Chat:</strong> Use our live chat feature for immediate support. Connect with a representative who can assist you in real time, helping you resolve issues or answer questions quickly.</li>
                             <li><strong>Phone Support:</strong> Call our support hotline for direct assistance. Our customer service team is available to help with more complex issues or provide personalized support over the phone.</li>
                         </ul>
                     </section>

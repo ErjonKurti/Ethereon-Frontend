@@ -4,7 +4,7 @@ import { FaEnvelope, FaInstagram, FaRegCopy, FaTiktok, FaWhatsapp } from 'react-
 import './ShareModal.css';
 
 const ShareModal = ({ isOpen, onClose }) => {
-    const profileUrl = 'https://ethereon.netlify.app/profile'; // Updated URL
+    const profileUrl = 'https://ethereon.netlify.app/profile';
 
     if (!isOpen) return null;
 

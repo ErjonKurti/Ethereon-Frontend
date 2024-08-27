@@ -27,7 +27,6 @@ const Login = () => {
             localStorage.setItem('token', response.data.token);
             loadCartData({ token: response.data.token });
             toast.success('Login successful!');
-            navigate('/'); // Redirect to home or another page after login
         } else {
             toast.error(response.data.message);
         }
@@ -64,12 +63,14 @@ const Login = () => {
                     />
                 </div>
                 <div className="flex items-center justify-between">
-                    <button
-                        type="submit"
-                        className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-6 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-300 transition duration-300"
-                    >
-                        Login
-                    </button>
+                    <a href='/home'>
+                        <button
+                            type="submit"
+                            className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-6 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-300 transition duration-300"
+                        >
+                            Login
+                        </button>
+                    </a>
                 </div>
             </form>
         </div>

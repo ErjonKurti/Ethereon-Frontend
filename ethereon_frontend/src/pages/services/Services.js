@@ -8,10 +8,10 @@ const Services = () => {
 
 
     return (
-        <>
+        <div>
             <Navbar />
             <VideoBackground />
-        </>
+        </div>
     )
 }
 

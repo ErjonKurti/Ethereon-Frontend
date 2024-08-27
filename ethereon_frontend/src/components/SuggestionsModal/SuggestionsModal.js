@@ -40,7 +40,7 @@ const SuggestionsModal = ({ isOpen, onClose }) => {
                                     className="suggestion-close"
                                     onClick={() => handleRemove(suggestion.id)}
                                 >
-                                    x
+                                    X
                                 </button>
                                 <img src={suggestion.profilePic} alt={suggestion.username} className="suggestion-pic" />
                                 <div className="suggestion-info">

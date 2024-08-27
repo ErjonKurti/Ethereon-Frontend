@@ -5,7 +5,7 @@ const Modal = ({ isOpen, onClose, title, data, currentUser }) => {
     const [searchTerm, setSearchTerm] = useState('');
     const [followed, setFollowed] = useState(
         data.reduce((acc, item) => {
-            acc[item] = false; // Initially, no one is followed
+            acc[item] = false;
             return acc;
         }, {})
     );

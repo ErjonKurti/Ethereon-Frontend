@@ -31,7 +31,7 @@ const Navbar = () => {
                             <img
                                 src={assets.settings}
                                 alt="Profile"
-                                style={{ width: '40px', height: '40px', borderRadius: '50%' }}
+                                style={{ width: '41px', height: '41px', borderRadius: '50%' }}
                             />
                         </a>
                     </div>

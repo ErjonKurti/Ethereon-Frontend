@@ -25,7 +25,6 @@ const Register = () => {
 
     const onSubmit = e => {
         e.preventDefault();
-        // Add form submission logic here if needed
         console.log('Form submitted:', formData);
     };
 

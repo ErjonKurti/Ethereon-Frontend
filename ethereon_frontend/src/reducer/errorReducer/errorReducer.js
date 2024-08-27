@@ -6,12 +6,16 @@ const initialState = {
 
 export const errorReducer = (state= initialState, action) => {
     const { type, payload } = action
+    
     switch(type){
+
         case GET_ERRORS:
+
             return{
                 msg: payload.msg,
                 status: payload.status
             }
+
             default:
                 return{ state }
     }

@@ -8,7 +8,7 @@ const Preloader = () => {
         <>
             <div className='preloader'>
                 <div className='logo-container-preloader'>
-                    <img src={assets.concept_2} alt='' className='img-1 spinner' />
+                    <img src={assets.concept_2} alt='logo' className='img-1 spinner' />
                         <img src={assets.logo_light} alt='' className='img-2' />
                 </div>
             </div>

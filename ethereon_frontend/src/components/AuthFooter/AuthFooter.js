@@ -11,7 +11,7 @@ const AuthFooter = () => {
                     </div>
                     <div className="footer-links-row1">
                         <span>English (UK)</span>
-                        <span>© 2024 Ethereon from Meta</span>
+                        <span>©2024 Ethereon from Meta</span>
                     </div>
                 </div>
             </div>

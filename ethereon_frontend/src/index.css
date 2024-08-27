@@ -9,4 +9,48 @@
 
 body {
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+:focus {
+    outline: none;
+}
+
+/* Prevent zooming on iPhones and other devices */
+meta[name="viewport"] {
+    width: device-width;
+    initial-scale: 1.0;
+    maximum-scale: 1.0;
+    user-scalable: no;
+}
+
+/* Touch action to prevent default touch behaviors */
+.element {
+    touch-action: manipulation;
+}
+
+/* Prevent text selection */
+.no-select {
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+/* Ensure clickable elements have pointer cursor */
+a, button {
+    cursor: pointer;
+}
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+    /* Add other responsive styles as needed */
 }

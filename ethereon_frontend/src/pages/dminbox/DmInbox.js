@@ -16,7 +16,7 @@ const DmInbox = ({ conversation, onClose }) => {
                 id: Date.now(),
                 text: message,
                 media: file ? URL.createObjectURL(file) : null,
-                sender: 'user', // Adjust based on the sender
+                sender: 'user',
             };
             setMessages([...messages, newMessage]);
             setMessage('');
